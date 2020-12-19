@@ -1,8 +1,13 @@
 function Registration () {
   return(
     <div> 
-      Registration form
-    </div>
+<div> 
+  <form>
+    <input type='text'></input>
+    <input type='text'></input>
+    <input type="submit" value="Submit"></input>
+  </form>
+  </div>    </div>
   )
 }
 
