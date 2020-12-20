@@ -1,6 +1,6 @@
 import './App.css';
-import Menubar from './menu-bar';
-import Registration from './registration';
+import Menubar from './components/Menu-bar';
+import Registration from './components/Registration';
 
 function App() {
   return (
