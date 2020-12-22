@@ -33,11 +33,11 @@ class Projectlist extends Component {
 
   handleClick = (id) => {
     this.setState({
-      project: this.state.project.map((project) => {
-        if (project.id === id) {
-          project.votecount += 1;
+      project: this.state.project.map((x) => {
+        if (x.id === id) {
+          x.votecount += 1;
         }
-        return project;
+        return x;
       }),
     });
   };
