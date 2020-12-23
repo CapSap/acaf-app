@@ -2,4 +2,39 @@
   text-align: center;
 }
 
+.project-container {
+  display: flex;
+  border: red 2px solid;
+  align-items: ;
+
+}
+.project-title {
+  display: block;
+}
+
+.projects {
+  background-color: cadetblue;
+  flex: 1;
+  border: 5px solid;
+  padding: 20px;
+  margin: 5px;
+
+}
+
+.project-title {
+  
+}
+
+.project-head-title {
+  display: block;
+  margin-bottom: 3vh;
+  border: 1px solid green;
+  text-align: center;
+  
+}
+.vote-count {
+  text-align: right;
+  top: 0px;
+  right: 0px;
+}
 

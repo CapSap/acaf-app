@@ -1,5 +1,6 @@
 import { Component } from "react";
 import Projects from "./Projects";
+import "../App.css";
 
 class Projectlist extends Component {
   state = {
@@ -43,9 +44,18 @@ class Projectlist extends Component {
   };
 
   render() {
-    return this.state.project.map((x) => (
-      <Projects item={x} handleClick={this.handleClick} />
-    ));
+    return (
+      <div>
+        <div className="project-head-title">Our Projects:</div>
+        <div className="project-container">
+          {this.state.project.map((x) => (
+            <div className="projects">
+              <Projects item={x} handleClick={this.handleClick} />
+            </div>
+          ))}
+        </div>
+      </div>
+    );
   }
 }
 

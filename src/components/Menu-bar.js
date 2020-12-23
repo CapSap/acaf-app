@@ -2,7 +2,7 @@
 function Menubar() {
   return(
     <div>
-      Menu bar goes here
+      Title: Acaf member dashboard demo app
     </div>
   )
 }
