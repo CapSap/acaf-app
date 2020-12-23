@@ -9,7 +9,14 @@
 
 }
 .project-title {
-  display: block;
+  float: left;
+}
+.vote-count {
+
+  text-align: right;
+  top: 0px;
+  right: 0px;
+
 }
 
 .projects {
@@ -21,20 +28,14 @@
 
 }
 
-.project-title {
-  
-}
 
-.project-head-title {
+
+.projects-heading {
   display: block;
   margin-bottom: 3vh;
   border: 1px solid green;
   text-align: center;
   
 }
-.vote-count {
-  text-align: right;
-  top: 0px;
-  right: 0px;
-}
+
 
