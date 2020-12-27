@@ -37,7 +37,7 @@ body {
 
 }
 
-.project {
+.project-content {
   background-color: cadetblue;
   flex: 1;
   border: 5px solid;
@@ -49,14 +49,14 @@ body {
 }
 
 
-.project:hover {
+.project-content:hover {
   /* transform: translate3d(0, calc(100% - 12.75rem), 0); */
   transform: translate3d(0,0,0);
   transition: transform 0.8s cubic-bezier(0.5, 0, 0, 1);
   
 }
 
-.project:hover .project-description {
+.project-content:hover .project-description {
   opacity: 1;
   transition: opacity 200ms;
 }
