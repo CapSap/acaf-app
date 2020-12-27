@@ -1,11 +1,29 @@
-.App {
-  text-align: center;
+body {
+  font-family: basic-sans, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125em;
+  line-height: 1.6;
+  color: #333;
+  background: #ddd;
 }
 
-.project-container {
+.title {
+  margin: 0 0 0.5em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3rem;
+  color: #ee6352;
+  line-height: 0.8;
+}
+
+
+.projects-container {
   display: flex;
   border: red 2px solid;
-  align-items: ;
 
 }
 .project-title {
@@ -19,28 +37,34 @@
 
 }
 
-.projects {
+.project {
   background-color: cadetblue;
   flex: 1;
   border: 5px solid;
   padding: 20px;
   margin: 5px;
-
-}
-
-.projects:hover  .project-description {
-  transition: font-size 5s;
-  transform: translate3d(0, calc(100% - 12.75rem), 0);
-  transition: transform 0.8s cubic-bezier(0.5, 0, 0, 1);
-  opacity: 1;
+  transform: translate(0, calc(100% - 12.75rem));
  
+
 }
 
-.project-description {
+
+.project:hover {
+  /* transform: translate3d(0, calc(100% - 12.75rem), 0); */
+  transform: translate3d(0,0,0);
+  transition: transform 0.8s cubic-bezier(0.5, 0, 0, 1);
+  
+}
+
+.project:hover .project-description {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+
+ .project-description {
   opacity: 0;
   color:blueviolet;
   font-size: 20px;
- 
 
 }
 
