@@ -25,9 +25,11 @@ body {
   border: red 2px solid;
 }
 .project-title {
+  color: #ddd;
   float: left;
 }
 .vote-count {
+  color: #ddd;
   text-align: right;
   top: 0px;
   right: 0px;
@@ -38,12 +40,28 @@ body {
   border: 5px solid;
   padding: 20px;
   margin: 5px;
+  overflow: hidden;
+
 }
 
 .project-content {
   border: 2px solid;
   margin: 5px;
+  min-height: 370px ;
   transform: translate(0, calc(100% - 12.75rem));
+}
+
+.project-content::before {
+  content: '';
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+opacity: .96;
+z-index: -1;
+background: linear-gradient(150deg, currentColor 50%, transparent) no-repeat center/300% 400%;
+
 }
 
 .project-content:hover {
@@ -60,7 +78,7 @@ body {
 
 .project-description {
   opacity: 0;
-  color: blueviolet;
+  color: grey;
   font-size: 20px;
 }
 
@@ -69,6 +87,7 @@ body {
 }
 
 .projects-heading {
+  
   display: block;
   margin-bottom: 3vh;
   border: 1px solid green;
