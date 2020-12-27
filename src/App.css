@@ -33,7 +33,7 @@ body {
   right: 0px;
 }
 .project-background {
-  flex: auto;
+  flex: 1;
   background-color: cadetblue;
   border: 5px solid;
   padding: 20px;
@@ -41,7 +41,6 @@ body {
 }
 
 .project-content {
-  flex: 1;
   border: 2px solid;
   margin: 5px;
   transform: translate(0, calc(100% - 12.75rem));
