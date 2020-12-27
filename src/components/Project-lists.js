@@ -50,7 +50,7 @@ class Projectlist extends Component {
         <div className="project-container">
           {this.state.project.map((x) => (
             <div className="projects">
-              <Projects item={x} handleClick={this.handleClick} />
+              <Projects  item={x} handleClick={this.handleClick} />
             </div>
           ))}
         </div>

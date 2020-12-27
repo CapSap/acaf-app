@@ -27,11 +27,24 @@
   margin: 5px;
 
 }
-.projects:hover {
+
+.projects:hover  .project-description {
+  transition: font-size 5s;
+  transform: translate3d(0, calc(100% - 12.75rem), 0);
+  transition: transform 0.8s cubic-bezier(0.5, 0, 0, 1);
+  opacity: 1;
+ 
+}
+
+.project-description {
+  opacity: 0;
   color:blueviolet;
   font-size: 20px;
-  transition: font-size 5s;
+ 
+
 }
+
+
 
 
 

@@ -10,7 +10,7 @@ class Projects extends Component {
         </div>
         <div className="vote-count">Vote count: {this.props.item.votecount}</div>
 
-        <p>{this.props.item.description}</p>
+        <p className="project-description">{this.props.item.description}</p>
         <a href={this.props.item.link}>Read more</a> <br></br>
         <button onClick={this.props.handleClick.bind(this, this.props.item.id)}>
           Vote
