@@ -47,9 +47,9 @@ class Projectlist extends Component {
     return (
       <div>
         <div className="projects-heading">Our Projects:</div>
-        <div className="project-container">
+        <div className="projects-container">
           {this.state.project.map((x) => (
-            <div className="projects">
+            <div className="project">
               <Projects  item={x} handleClick={this.handleClick} />
             </div>
           ))}
