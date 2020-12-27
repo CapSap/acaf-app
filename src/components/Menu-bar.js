@@ -1,8 +1,8 @@
 
 function Menubar() {
   return(
-    <div>
-      Title: Acaf member dashboard demo app
+    <div className='title'>
+      Acaf demo app
     </div>
   )
 }
