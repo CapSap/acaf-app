@@ -49,8 +49,10 @@ class Projectlist extends Component {
         <div className="projects-heading">Our Projects:</div>
         <div className="projects-container">
           {this.state.project.map((x) => (
+            <div className="project-background">
             <div className="project-content">
               <Projects  item={x} handleClick={this.handleClick} />
+            </div>
             </div>
           ))}
         </div>
