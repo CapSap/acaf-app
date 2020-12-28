@@ -9,7 +9,7 @@ function App() {
       <Menubar />
       <Registration />
       <Projectlist />
-Test for R    </div>
+    </div>
   );
 }
 
