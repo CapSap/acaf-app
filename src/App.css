@@ -22,7 +22,7 @@ body {
 
 .projects-container {
   display: flex;
-  border: red 2px solid;
+  /* border: red 2px solid; */
 }
 .project-title {
   color: #ddd;
@@ -35,9 +35,11 @@ body {
   right: 0px;
 }
 .project-background {
+
   flex: 1;
-  background-color: cadetblue;
-  border: 5px solid;
+  background-image: url("http://www.fillmurray.com/g/500/500");
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 20px;
   margin: 5px;
   overflow: hidden;
@@ -64,14 +66,14 @@ background: linear-gradient(150deg, currentColor 50%, transparent) no-repeat cen
 
 }
 
-.project-content:hover {
+.project-background:hover .project-content {
   /* transform: translate3d(0, calc(100% - 12.75rem), 0); */
   transform: translate3d(0, 0, 0);
   transition: transform 0.8s cubic-bezier(0.5, 0, 0, 1);
 }
 
-.project-content:hover .project-description,
-.project-content:hover .link-vote-container {
+.project-background:hover .project-description,
+.project-background:hover .link-vote-container {
   opacity: 1;
   transition: opacity 200ms;
 }
