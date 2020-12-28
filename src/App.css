@@ -47,8 +47,8 @@ body {
 }
 
 .project-content {
-  border: 2px solid;
   margin: 5px;
+  padding: 5px;
   min-height: 370px ;
   transform: translate(0, calc(100% - 12.75rem));
 }
