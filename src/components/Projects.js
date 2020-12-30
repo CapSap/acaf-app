@@ -12,10 +12,10 @@ class Projects extends Component {
 
         <p className="project-description">{this.props.item.description}</p>
         <div className="link-vote-container">
-        <button onClick={this.props.handleClick.bind(this, this.props.item.id)}>
+        <button  onClick={this.props.handleClick.bind(this, this.props.item.id)}>
           Vote
         </button>
-        <a href={this.props.item.link}>Read more</a> <br></br>
+        <a id="read-more-link" href={this.props.item.link}>Read more</a> 
         
         </div>
       </div>
