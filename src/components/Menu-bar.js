@@ -2,7 +2,7 @@
 function Menubar() {
   return(
     <div className='title'>
-      Acaf demo app
+      Australian Climate Action Fund: Demo App
     </div>
   )
 }

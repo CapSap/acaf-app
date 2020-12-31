@@ -9,7 +9,7 @@ function Registration() {
           <input className="input-box" type="text" placeholder="Your first name" required="true"></input>
           <input className="input-box" type="text" placeholder="Your last name" required="true" ></input>          
           <input className="input-box" type="email" placeholder="Your email addres" required="true"></input>
-          <input type="submit" value="Submit"></input>
+          <input className="input-box" type="submit" value="Submit"></input>
         </form>
       </div>
   );
