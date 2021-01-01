@@ -28,22 +28,30 @@ body {
   background-position: 50% 80%;
   
 }
-.registration-forms-content {
-  display: block;
-  float: left;
-  width: 71.42857%;
-  margin-top: 200px;;
-  margin-left: 14.28571%;
-  margin-right: 0;
-  padding: 10vh 0;
-}
-.registration-forms-content h2 {
+.registration-container h2 {
+  display:inline-flex;
   margin-left: 20px;
   color: rgb(255, 255, 255);
+  width: 71.42857%;
+  margin-left: 14.28571%;
+  margin-top: 200px;
+  padding: 10vh 0 0 0;
+
+
+
 }
 
+.registration-forms-content {
+  display: flex;
+  box-sizing: border-box;
+  float: left;
+  width: 71.42857%;
+  margin-left: 14.28571%;
+  margin-right: 0;
+}
+
+
 .registration-forms-content .input-box {
-  display: inline;
   height: 38px;
   margin: 0 20px 0 20px;
   padding: 6px 10px;
@@ -53,8 +61,8 @@ body {
   box-shadow: none;
   box-sizing: border-box;
   font-size: 1.2rem;
-
 }
+
 
 .projects-container {
   display: flex;
@@ -137,7 +145,7 @@ body {
   justify-content: space-between;
 }
 
-a,
+.link-vote-container a, .link-vote-container
 button {
   background-color: #ddd;
   height: 38px;
