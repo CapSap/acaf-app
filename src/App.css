@@ -11,6 +11,8 @@ body {
 }
 
 .title {
+  display: ;
+  word-wrap: normal;
   margin: 0 0 0.5em;
   font-weight: 900;
   font-style: italic;
@@ -27,7 +29,6 @@ body {
     ),
     url("https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
   background-repeat: no-repeat;
-  object-fit: cover;
   background-size: cover;
   background-position: 50% 80%;
 }
@@ -37,7 +38,7 @@ body {
   color: rgb(255, 255, 255);
   width: 71.42857%;
   margin-left: 14.28571%;
-  margin-top: 200px;
+  margin-top: 220px;
   padding: 10vh 0 0 0;
 }
 
@@ -63,11 +64,16 @@ body {
   font-size: 1.2rem;
 }
 
-
+.projects-heading {
+  display: block;
+  margin-bottom: 3vh;
+  text-align: center;
+}
 
 .projects-container {
   display: flex;
-  /* border: red 2px solid; */
+  flex-wrap: wrap;
+
 }
 .project-title {
   color: #ddd;
@@ -80,7 +86,7 @@ body {
   right: 0px;
 }
 .project-background {
-  flex: 1;
+  flex: 1 0 450px;
   background-image: url("http://www.fillmurray.com/g/500/500");
   background-position: center;
   background-repeat: no-repeat;
@@ -90,7 +96,7 @@ body {
 }
 
 .project-content {
-  margin: 5px;
+  margin: auto;
   padding: 5px;
   min-height: 370px;
   max-width: 450px;
@@ -134,12 +140,7 @@ body {
   opacity: 0;
 }
 
-.projects-heading {
-  display: block;
-  margin-bottom: 3vh;
-  border: 1px solid green;
-  text-align: center;
-}
+
 
 .link-vote-container {
   display: flex;
