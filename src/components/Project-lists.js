@@ -46,7 +46,8 @@ class Projectlist extends Component {
   render() {
     return (
       <div>
-        <div className="projects-heading">Our Projects:</div>
+        <div className="projects-heading">
+          <h2>Our Projects</h2></div>
         <div className="projects-container">
           {this.state.project.map((x) => (
             <div className="project-background">
